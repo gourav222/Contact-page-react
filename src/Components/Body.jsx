@@ -1,5 +1,4 @@
 import "./Body.css";
-import EarthCanvas from "./Earth";
 const Body = () => {
   return (
     <div className="body">
