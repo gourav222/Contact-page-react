@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+}
+.container{
+  /* min-height: 100vh; */
+  /* border: 2px solid green; */
+  /* margin: -0.5rem; */
+   width: 100%;
+   /* background-color: rgba(5, 8, 22, 255); */
+  /*padding: 0px; */
+  overflow-x: hidden;
+}

@@ -1,0 +1,102 @@
+.disclaimer h1 {
+  color: rgb(255, 183, 49);
+  margin: 2rem 0 2rem 0;
+}
+.disclaimer {
+  color: white;
+  font-size: 1.1rem;
+  margin: 0 10rem 0 10rem;
+}
+
+.footer {
+  width: 100%;
+  padding: 1.1rem 0 0 0;
+  background-color: rgb(28, 24, 24);
+}
+.aeronpay {
+  display: flex;
+  width: 90%;
+  margin: 3rem 0 0 10rem;
+  /* border: 2px solid red; */
+}
+.footer-links {
+  display: flex;
+  width: 100%;
+}
+.aeronpay div img {
+  width: 10rem;
+}
+.aeronpay-logo {
+  width: 25%;
+  margin: 0 2.5rem 0 0;
+}
+.aeronpay-logo p {
+  color: rgb(147, 147, 147);
+  font-size: 1.1rem;
+}
+.footer-links {
+  color: white;
+  /* border: 2px solid red; */
+  margin: 0 0 0 7rem;
+}
+.footer-links div ul li {
+  list-style: none;
+  margin: 0.7rem 0 0 0;
+  font-size: 1.1rem;
+  color: rgb(147, 147, 147);
+}
+.footer-links h2 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+footer-links-div-4 {
+  width: 50%;
+  border: 2px solid green;
+}
+#footer-links-div-1 {
+  width: 20%;
+}
+#footer-links-div-2 {
+  width: 20%;
+}
+#footer-links-div-3 {
+  width: 20%;
+  border: green;
+}
+.bottom {
+  display: flex;
+  height: 20%;
+  color: white;
+  padding: 2rem 0;
+  margin: 2rem 0 0 10rem;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+.bottom div {
+  font-size: 1.1rem;
+}
+.bottom img {
+  width: 12%;
+  margin: 0 0 0 0.7rem;
+}
+@media (max-width: 62em) {
+  .aeronpay {
+    flex-direction: column;
+  }
+  .footer-links {
+    flex-direction: column;
+    margin: 5rem 0 0 0;
+  }
+  .footer-links div {
+    margin: 1rem 0 0 0;
+  }
+  .aeronpay-logo {
+    width: 50%;
+  }
+  .bottom {
+    flex-direction: column;
+  }
+  .bottom div {
+    margin: 1.5rem 0 0 0;
+  }
+}
